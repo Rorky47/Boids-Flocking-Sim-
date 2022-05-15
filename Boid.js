@@ -1,4 +1,5 @@
 class Boid {
+//Boid Constructor
   constructor() {
     this.position = createVector(random(2 * width / 5, 3 * width / 5), random(2 * height / 5, 3 * height / 5));
     this.velocity = p5.Vector.random2D();
