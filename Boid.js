@@ -12,6 +12,7 @@ class Boid {
     this.h = random(360);
   }
 
+  //edge function
   edges() {
     if (this.position.x > width){
       this.position.x = 0;
